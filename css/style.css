@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.title {
+    position: relative;
+    top: 300px;
+    z-index: 1;
+    font-size: 100px;
+    color: #000;
+    text-align: center;
+    width: 100%;
+    font-weight: 800;
+}
+
+.main_image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: url('../images/planet_image1.jpg');
+    background-attachment: fixed;
+    clip-path: circle(0px at center);
+}
+
+.container {
+    position: relative;
+    margin-top: 200vh;
+    background: #fff;
+    padding: 130px;
+}
+
+.container p {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    text-align: center;
+}
+
+.container h2 {
+    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 700;
+    font-size: 80px;
+}
+
+.problems {
+    position: relative;
+    margin-top: 110vh;
+    background: #fff;
+    padding: 100px;
+}
+
+.problems_section {
+    width: 100%;
+    font-size: 50px;
+    font-weight: 400;
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.problems .problems_title {
+    font-size: 5vw;
+    color: #000;
+    text-align: center;
+    width: 100%;
+    font-weight: 700;
+}
+
+.problems_section .main_problems {
+    text-align: center;
+}
+
+.problems_section .main_problems .fire {
+    font-size: 18vw;
+    font-weight: 900;
+    line-height: 1em;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: url('../images/fire.jpg');
+    background-attachment: fixed;
+}
+
+.problems_section .main_problems .garbage {
+    font-size: 18vw;
+    font-weight: 900;
+    line-height: 1em;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: url('../images/garbage.jpg');
+    background-attachment: fixed;
+}
+
+.problems_section .main_problems .deforestation {
+    font-size: 10.5vw;
+    font-weight: 900;
+    line-height: 1em;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: url('../images/deforestation.jpg');
+    background-attachment: fixed;
+}
+
+.problems_section .main_problems .carbon_dioxide {
+    font-size: 18vw;
+    font-weight: 900;
+    line-height: 1em;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: url('../images/carbon_dioxide.jpg');
+    background-attachment: fixed;
+}
+
+.problems_section .main_problems .humans {
+    font-size: 18vw;
+    font-weight: 900;
+    line-height: 1em;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: url('../images/human.jpg');
+    background-attachment: fixed;
+}
+
+.problems_section .main_problems p {
+    max-width: 1500px;
+    margin: 0 auto;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 300;
+    font-size: 50px;
+}
+
+.final {
+    position: relative;
+    margin-top: 110vh;
+    background: #fff;
+    padding: 115px;
+}
+
+.final h4 {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 13vw;
+    color: #000;
+    text-align: center;
+    width: 100%;
+    font-weight: 700;
+}
